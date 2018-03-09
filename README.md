@@ -8,6 +8,6 @@
 
 # 细节
 
-从微博的API  (`https://m.weibo.cn/api/container/getIndex?type=uid&value=1401527553&containerid=1076031401527553&page=1`)  获取到共 1542 个 json 文件（已作为压缩包在 repo 中提供，需做更多处理可自取），提取重要信息并构造成一个 HTML 文件（ `tkposts.html` ）。为了加载速度更快些，注释了所有的图片，得到 `noimg_tkposts.html` 。更多信息见代码注释。
+从微博的API  (`https://m.weibo.cn/api/container/getIndex?type=uid&value=1401527553&containerid=1076031401527553&page=1`)  获取到共 1542 个 json 文件（已作为压缩包在 repo 中提供，需做更多处理可自取），提取重要信息并构造成一个 HTML 文件（ `tkposts.html` ）。为了加载速度更快些，注释了所有的图片，得到 `noimg_tkposts.html` 。更多信息见代码注释和 [这篇文章](https://findneo.github.io/2018/03/180309RetrieveWeiboPosts/)。
 
 可以在 [这里](https://findneo.github.io/TKposts/noimg_tkposts.html) 读到在线版本。
